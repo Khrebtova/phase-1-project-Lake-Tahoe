@@ -68,8 +68,21 @@ const handleBigPic = (activity) => {
     h2.innerText = activity.name
     h2.className = "name"
 
+    let likeBtn = document.createElement('button')
+    activity.likes !== 0 ? likeBtn.className = "liked" : likeBtn.className = "likeBtn"
+    likeBtn.innerText = `${activity.likes} ❤`
+    likeBtn.addEventListener('click', () => handleLike(activity, likeBtn))
+
+    let disLikeBtn = document.createElement('button')
+    disLikeBtn.innerText = `👎`
+    disLikeBtn.className = "dislike"
+    disLikeBtn.addEventListener('click', () => handleDisLike(activity, likeBtn))
+
+
     detailsDiv().appendChild(img)
     detailsDiv().appendChild(h2)
+    detailsDiv().appendChild(likeBtn)
+    detailsDiv().appendChild(disLikeBtn)
 }
 
 function handleFilter(season){
