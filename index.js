@@ -71,12 +71,12 @@ const handleBigPic = (activity) => {
     let likeBtn = document.createElement('button')
     activity.likes !== 0 ? likeBtn.className = "liked" : likeBtn.className = "likeBtn"
     likeBtn.innerText = `${activity.likes} ❤`
-    likeBtn.addEventListener('click', () => handleLike(activity, likeBtn))
+    likeBtn.addEventListener('click', () => handleLike(activity))
 
     let disLikeBtn = document.createElement('button')
     disLikeBtn.innerText = `👎`
     disLikeBtn.className = "dislike"
-    disLikeBtn.addEventListener('click', () => handleDisLike(activity, likeBtn))
+    disLikeBtn.addEventListener('click', () => handleDisLike(activity))
 
 
     detailsDiv().appendChild(img)
@@ -102,6 +102,16 @@ const handleCommentSubmit = (activity, comment) => {
     activity.comment = comment;
     alert("Thanks for your comment!")
     handlePatchRequest(activity) 
+}
+
+const handleLike = (activity) => {
+    activity.likes += 1
+    handlePatchRequest(activity)
+}
+
+const handleDisLike = (activity) =>{
+    activity.likes > 0 ? activity.likes -- : activity.likes = 0
+    handlePatchRequest(activity)
 }
 
 const handlePatchRequest = (activity) => {
