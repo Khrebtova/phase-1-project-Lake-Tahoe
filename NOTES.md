@@ -10,7 +10,7 @@ https://jesswandering.com/72-perfect-hours-in-lake-tahoe/
 What I like to do On the Lake Tahoe
 
 ## Overview    
-web page will be used to show defirent activities avalable on lake Tahoe, user will be able to sort activities by season, chose one of them in the menu on top and see detailed description of a chosen activity, user will be able to add comments, and like/dislike the activity. 
+web page will be used to show defirent activities avalable on lake Tahoe, user will be able to sort activities by season, choose one of them in the menu on top and see detailed description of a chosen activity below, user will be able to add comments, and like/dislike the activity. 
 
 
 ## MVP

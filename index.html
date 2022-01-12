@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Lake Tahoe Activity Guide</title>
-   
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="./index.js"></script>
 </head>
 <body>
     <header> 
-        <h2>What I like to do on a Lake TAHOE</h2>
+        <h2>What I like to do on the lake TAHOE</h2>
     </header>
+    <form id = "sort">
+        <select id = "season">
+            <option value="All of them">Show me all</option>
+            <option value="Summer">Summer</option>
+            <option value="Winter">Winter</option>
+            <option value="All year round">All year round</option>
+        </select>
+        <input type="submit" value="Choose season">
+    </form>
    
     <div id="activity-menu" >
         <!-- Images Here -->
     </div>
     <div id = "details">
         <!-- Big Picture and details goes here -->
-       
     </div>
     <form id ="comment-form">
-    <!-- Comments here -->
+        <input type="text" name="comment" id="comment" placeholder="leave your comment"/>
+        <input type="submit" value = "submit">
     </form>
     
 </body>
