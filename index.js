@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     getAllActivities()
     filterEventAttach()
-    
+    commentEventAttach()
 })
 
 /** GlobalVariables */
@@ -23,6 +23,13 @@ const filterEventAttach = () => {
         e.preventDefault();
         handleFilter(e.target['season'].value);
         filter().reset()
+    })
+}
+const commentEventAttach = () => {
+    commentForm().addEventListener('submit', (e) => {
+        e.preventDefault()
+        handleCommentSubmit(selectedActivity, e.target['comment'].value)
+        commentForm().reset()
     })
 }
 
@@ -61,6 +68,16 @@ function handleFilter(season){
     }
     sortedList.forEach(el => renderPicture(el))
     handleBigPic(sortedList[0]) 
+}
+
+const handleCommentSubmit = (activity, comment) => {
+    activity.comment = comment;
+    alert("Thanks for your comment!")
+    handlePatchRequest(activity) 
+}
+
+const handlePatchRequest = (activity) => {
+console.log("here will be patch request")
 }
 
 /** MISC */
