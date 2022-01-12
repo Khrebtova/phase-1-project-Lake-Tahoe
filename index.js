@@ -25,6 +25,7 @@ const filterEventAttach = () => {
         filter().reset()
     })
 }
+
 const commentEventAttach = () => {
     commentForm().addEventListener('submit', (e) => {
         e.preventDefault()
@@ -57,10 +58,18 @@ const handleBigPic = (activity) => {
     resetDetailDiv();
     selectedActivityId = activity.id
     selectedActivity  = activity;
+    
     let img = document.createElement('img')
     img.className = "detail-image"
     img.src = activity.image
     img.alt = activity.name
+
+    let h2 = document.createElement('h2')
+    h2.innerText = activity.name
+    h2.className = "name"
+
+    detailsDiv().appendChild(img)
+    detailsDiv().appendChild(h2)
 }
 
 function handleFilter(season){
