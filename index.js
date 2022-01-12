@@ -77,7 +77,16 @@ const handleCommentSubmit = (activity, comment) => {
 }
 
 const handlePatchRequest = (activity) => {
-console.log("here will be patch request")
+    fetch(`http://localhost:3000/activities/${activity.id}`, {
+        method: 'PATCH',
+        headers : {
+            "Content-type" : "application/json",
+            Accept : "application/json"
+        },
+        body: JSON.stringify(activity)
+    })
+    .then(res => res.json())
+    .then(activity => handleBigPic(activity))
 }
 
 /** MISC */
