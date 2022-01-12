@@ -78,11 +78,20 @@ const handleBigPic = (activity) => {
     disLikeBtn.className = "dislike"
     disLikeBtn.addEventListener('click', () => handleDisLike(activity))
 
+    let h3 = document.createElement('h3')
+    h3.innerText = activity.description
+    h3.className = "description"
+
+    let p = document.createElement('p')
+    p.innerText = `"${activity.comment}"`
+
 
     detailsDiv().appendChild(img)
     detailsDiv().appendChild(h2)
     detailsDiv().appendChild(likeBtn)
     detailsDiv().appendChild(disLikeBtn)
+    detailsDiv().appendChild(h3)
+    detailsDiv().appendChild(p) 
 }
 
 function handleFilter(season){
