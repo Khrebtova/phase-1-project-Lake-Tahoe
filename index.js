@@ -54,7 +54,13 @@ const renderPicture = (activity) => {
 }
 
 const handleBigPic = (activity) => {
-    console.log(activity.name, "will be first big picture")
+    resetDetailDiv();
+    selectedActivityId = activity.id
+    selectedActivity  = activity;
+    let img = document.createElement('img')
+    img.className = "detail-image"
+    img.src = activity.image
+    img.alt = activity.name
 }
 
 function handleFilter(season){
