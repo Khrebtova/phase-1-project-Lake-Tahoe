@@ -12,7 +12,7 @@ all the outdoor and indoor activities!
 1.	If you haven't already, fork and clone this lab into your local environment. Navigate into its directory in the terminal, then run code . to open the files in Visual Studio Code.
 2.	Run 
 ```console
-npm install
+$ npm install
 ```
 to install the lab's dependencies.
 
