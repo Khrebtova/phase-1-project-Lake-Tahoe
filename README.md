@@ -10,8 +10,23 @@ all the outdoor and indoor activities!
 
 ## Let’s get started
 1.	If you haven't already, fork and clone this lab into your local environment. Navigate into its directory in the terminal, then run code . to open the files in Visual Studio Code.
-2.	Run npm install to install the lab's dependencies.
-3.	Run json-server --watch db.json to start the server.
+2.	Run 
+```console
+npm install
+```
+to install the lab's dependencies.
+
+4.	If you don't have `json-server` installed already, install it first with:
+
+```console
+$ npm install -g json-server
+```
+
+Then run the server:
+
+```console
+$ json-server --watch db.json
+```
 4.	Open index.html in the browser and take a look at the page.
 
 ## overview
