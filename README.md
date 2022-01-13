@@ -22,6 +22,8 @@ User will be able to:
 •	add comments,
 •	like/dislike the activity.
 
+Hope you'll enjoy it and come visit "Big Blue" Tahoe!
+
 ## Resources
 https://www.skilaketahoe.com/
 https://adventuresportsjournal.com/dirt-lap-around-lake-tahoe/
