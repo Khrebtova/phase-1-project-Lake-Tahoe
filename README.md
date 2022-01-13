@@ -1,5 +1,6 @@
 # Lake Tahoe Activity Guide
-  
+  ![image](https://user-images.githubusercontent.com/88262913/149412512-a2b4f35c-5d79-4650-b7b0-1ddc2a636189.png)
+
 ## Introduction
 Welcome to my first project in Flatiron school program. 
 In the end of phase-1 of my curriculum I wanted to make an application about something I love and passionate about. I live close to Lake Tahoe and enjoy everything it has to offer: 
