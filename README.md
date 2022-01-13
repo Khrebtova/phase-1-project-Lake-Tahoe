@@ -30,7 +30,7 @@ $ json-server --watch db.json
 ```
 4.	Open index.html in the browser and take a look at the page.
 
-## overview
+## Overview
 My application is showing some of different activities available on lake Tahoe, like Skiing, hiking, paddleboarding, rock climbing, enjoying beaches or restaurants.
 User will be able to:
   *	sort activities by preferred season, 
@@ -39,6 +39,9 @@ User will be able to:
   *	like/dislike the activity.
 
 Hope you'll enjoy it and come visit "Big Blue" Tahoe!
+
+## Video walkthrough
+  https://youtu.be/KjdRa-jtKmk
 
 ## Resources
  * https://www.skilaketahoe.com/
