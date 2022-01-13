@@ -6,7 +6,9 @@
       "image": "./pictures/skiing.jpg",
       "description": "One lake - 6 amazing resorts. You can look forward to 768 kilometres of slopes: the ski resorts are served by 160 ski lifts. Have lots of fun skiing at Lake Tahoe!",
       "season": "Winter",
-      "comment": "One of the best places for skiing !!",
+      "comment": [
+        "One of the best places for skiing!"
+      ],
       "likes": 0
     },
     {
@@ -15,7 +17,9 @@
       "image": "./pictures/hiking.jpg",
       "description": "Hiking is one of the best ways to explore the topography and terrain surrounding the lake. And it keeps you in shape for winter ski season. With so many terrific hiking trails in Lake Tahoe, it is hard to get bored.",
       "season": "Summer",
-      "comment": "miles and miles of hiking trails! You just can/'t get bored",
+      "comment": [
+        "miles and miles of hiking trails! You just can't get bored"
+      ],
       "likes": 1
     },
     {
@@ -24,7 +28,9 @@
       "image": "./pictures/ice-skating.jpg",
       "description": "Ice skating rink is the perfect place to gather with family, meet new friends, or relax by a warm fire pit.",
       "season": "Winter",
-      "comment": "Be the first who leaves the comment",
+      "comment": [
+        "I love Tahoe!"
+      ],
       "likes": 0
     },
     {
@@ -33,7 +39,9 @@
       "image": "./pictures/paddleboard.jpg",
       "description": "Tahoe is known for its breathtaking beauty in all seasons, and summer boasts endless opportunities for exploring all the Tahoe has to offer. Don'r forget your paddle!",
       "season": "Summer",
-      "comment": "You should see how beautifull Tahoe is! just incredible",
+      "comment": [
+        "You should see how beautifull Tahoe is! just incredible"
+      ],
       "likes": 0
     },
     {
@@ -42,7 +50,9 @@
       "image": "./pictures/restaurants.jpg",
       "description": "Find your food craving at Lake Tahoe for yum with a view. Mexican, Italian, Indian, Chinese, German, Greek, Thai, Japanese and good old American burgers and fries are on Tahoe menus and there is more. Google the category you are looking for and your options will pop up.",
       "season": "All Year Round",
-      "comment": "What can I say.. I love food!",
+      "comment": [
+        "What can I say.. I love food!"
+      ],
       "likes": 0
     },
     {
@@ -51,8 +61,10 @@
       "image": "./pictures/beach.jpg",
       "description": "From majestic snow-peaked mountains to crystal-clear freshwater creeks, Lake Tahoe is full of natural wonders. Among the highlights are an array of beaches tucked away along the lake's shoreline, hidden in between dense pine groves and rocky hillsides.",
       "season": "All Year Round",
-      "comment": "I love Tahoe!",
-      "likes": 4
+      "comment": [
+        "I love Tahoe!"
+      ],
+      "likes": 2
     },
     {
       "id": 7,
@@ -60,7 +72,10 @@
       "image": "./pictures/rockclimbibg2.jpeg",
       "description": "From beginner traverses to expert overhangs, the Lake Tahoe climbing scene is killer for sport climbs, trad climbs or bouldering.",
       "season": "All Year Round",
-      "comment": "No comments yet",
+      "comment": [
+        "they also have indoor climbing gyms!",
+        "Climbing with a view! incredible "
+      ],
       "likes": 0
     },
     {
@@ -69,7 +84,7 @@
       "image": "./pictures/biking.jpg",
       "description": "America's Most Beautiful Bike Ride!! Breathtaking views of Lake Tahoe and its surrounding wilderness. Trail fit cyclists of all ages and experience levels.",
       "season": "Summer",
-      "comment": "No comments yet",
+      "comment": [],
       "likes": 0
     },
     {
@@ -78,7 +93,9 @@
       "image": "./pictures/casinos.jpg",
       "description": "Do a lap around the casino to find your game of interest. Glide on up, sit down, and enjoy the fun and challenge of gaming.",
       "season": "All Year Round",
-      "comment": "If you like gambling, it is a place to be!",
+      "comment": [
+        "If you like gambling, it is a place to be!"
+      ],
       "likes": 0
     }
   ]

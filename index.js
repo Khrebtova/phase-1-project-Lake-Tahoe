@@ -82,16 +82,17 @@ const handleBigPic = (activity) => {
     h3.innerText = activity.description
     h3.className = "description"
 
-    let p = document.createElement('p')
-    p.innerText = `"${activity.comment}"`
-
-
     detailsDiv().appendChild(img)
     detailsDiv().appendChild(h2)
     detailsDiv().appendChild(likeBtn)
     detailsDiv().appendChild(disLikeBtn)
     detailsDiv().appendChild(h3)
-    detailsDiv().appendChild(p) 
+    
+    for (let el of activity.comment){
+        let p = document.createElement('p')
+        p.innerText = `"${el}"`
+        detailsDiv().appendChild(p)
+    }
 }
 
 function handleFilter(season){
@@ -108,8 +109,8 @@ function handleFilter(season){
 }
 
 const handleCommentSubmit = (activity, comment) => {
-    activity.comment = comment;
-    alert("Thanks for your comment!")
+    let addcomment = [...activity.comment, comment];
+    activity.comment = addcomment
     handlePatchRequest(activity) 
 }
 

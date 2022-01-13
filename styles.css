@@ -24,7 +24,7 @@ header {
 #activity-menu {
   display: flex;
   overflow-x: auto;
-  margin: 1rem 0;
+  margin: 2rem ;
   width: 100%;
   height: auto;
   align-items: center;;
@@ -32,14 +32,16 @@ header {
 
 #activity-menu img {
   flex: 0 1 auto;
-  height: 110px;
-  margin-right: 0.5rem;
+  height: 100px;
+  
+  /* margin-right: 0,5rem; */
+  margin-left: 1rem;
   cursor: pointer;
 }
 
-#activity-menu img:last-child {
+/* #activity-menu img:last-child {
   margin-right: 0;
-}
+} */
 
 
 #activity-detail {
