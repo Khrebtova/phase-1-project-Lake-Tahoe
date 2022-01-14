@@ -42,6 +42,9 @@ Hope you'll enjoy it and come visit "Big Blue" Tahoe!
 
 ## Video walkthrough
   https://youtu.be/KjdRa-jtKmk
+  
+## Blog post
+https://medium.com/@mcfaddenkseniia/my-first-project-as-software-engineering-student-d934865f467d
 
 ## Resources
  * https://www.skilaketahoe.com/
